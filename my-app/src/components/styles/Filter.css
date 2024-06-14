@@ -1,0 +1,28 @@
+.filter {
+    margin: 20px 0;
+  }
+  
+  .filter label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .filter-input {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .filter-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    background-color: #45a049;
+  }

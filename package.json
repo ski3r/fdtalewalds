@@ -1,0 +1,22 @@
+{
+  "name": "electron-react-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"npm run react-start\" \"npm run electron-start\" \"npm run proxy\"",
+    "react-start": "cd my-app && npm start",
+    "electron-start": "wait-on http://localhost:3000 && electron .",
+    "proxy": "node proxyServer.js"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^6.4.0",
+    "electron": "^13.1.7",
+    "express": "^4.19.2",
+    "wait-on": "^6.0.0",
+    "cors": "^2.8.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
