@@ -1,4 +1,13 @@
 /* src/App.css */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.dashboard {
+  padding: 20px;
+}  
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -18,4 +27,9 @@ th, td {
 th {
   background-color: #f4f4f4;
 }
+.App {
+  display: flex;
+}
+
+
 

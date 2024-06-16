@@ -1,0 +1,23 @@
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .sidebar-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-menu ul,
+  .sidebar-footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu ul li,
+  .sidebar-footer ul li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
