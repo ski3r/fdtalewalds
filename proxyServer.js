@@ -2,10 +2,11 @@ const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 const app = express();
+require('dotenv').config(); // Importera dotenv och ladda miljövariabler
 
 const PORT = 3001;
-const API_URL = 'https://sellus.fdt.se/17839/api';
-const API_KEY = 's-641-fH1xghgssXA3DyrM';  // Ersätt med din faktiska API-nyckel
+const API_URL = process.env.API_URL;
+const API_KEY = process.env.API_KEY;
 
 app.use(cors());
 app.use(express.json());

@@ -5,14 +5,14 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-logo">
-        <h1>Logga</h1>
+        <h1>ALEWALDS</h1>
       </div>
       <div className="sidebar-menu">
         <ul>
-          <li>Produktinfo</li>
+          <li>Produktinformation</li>
           <li>Lagersaldoexport</li>
-          <li>Försäljning</li>
-          <li>Webbinfo</li>
+          <li>Prisexport</li>
+          <li>Webbinformation</li>
         </ul>
       </div>
       <div className="sidebar-footer">
